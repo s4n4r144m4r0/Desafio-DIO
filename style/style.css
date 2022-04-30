@@ -1,0 +1,107 @@
+:root{
+    --vermelho: #fa0404;
+    --preto: #090909;
+}
+
+
+*{
+
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: var(--preto);
+    font-family: cursive;
+    color: white;
+
+}
+
+
+header .container{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: cursive;
+    font-size: 80px;
+}
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right:10px ;
+
+}
+
+header nav a:hover{
+    color: #fff;
+}
+/*interface pricipal da pagina*/
+.serie-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,.50)100%), url("/img/capaprincipalthe100.png");
+
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.link1{
+    text-decoration: none;
+    color: white;
+}
+
+.link2{
+    text-decoration: none;
+    color: white;
+}
+
+.serie-principal .descricao{
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-right: 15px;
+}
+
+.titulo{
+    margin-top: 10%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, 0.50);
+    border: none;
+    color: white;
+
+    padding: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.botao i{
+    margin-right: 10px;
+}
+
+.box-serie{
+    height: 100%;
+    width: 100%;
+    display: block;
+    box-sizing: 50px;
+    
+}
